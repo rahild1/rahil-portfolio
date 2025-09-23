@@ -5,7 +5,7 @@ import { Button } from "./button";
 import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+const { theme, setTheme } = useTheme();
 
   return (
     <Button

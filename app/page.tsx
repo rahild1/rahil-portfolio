@@ -166,8 +166,8 @@ export default function Home() {
                 Enthusiastic and detail-oriented Web Developer with 1 year of
                 hands-on coding experience and a{" "}
                 <span className="text-black dark:text-white">
-                  Bachelor’s degree in Computer Science.
-                </span>{" "}
+                  Bachelor's degree in Computer Science.
+                </span>
                 and Collaborative team player with excellent communication
                 skills and proven ability to work with others to{" "}
                 <span className="text-black dark:text-white">
