@@ -297,57 +297,31 @@ export default function Home() {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
-                  <p className="text-sm text-gray-600 dark:text-gray-400">July, 202
+                  <p className="text-sm text-gray-600 dark:text-gray-400">August, 2025
                     Present</p>
-                  <p className="font-medium">System Engineer</p>
-                  <p className="text-blue-600 dark:text-blue-400">Company X</p>
+                  <p className="font-medium">Full-stack web development internship</p>
+                  <p className="text-blue-600 dark:text-blue-400">KodNest Technologies, Bangalore </p>
                 </div>
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Led the development of cloud-native applications using AWS 
-              services, implementing serverless architectures that reduced 
-              operational costs by 40%. Established CI/CD pipelines and 
-              automated deployment processes, resulting in 60% faster 
-              release cycles.
+             Currently undergoing intensive training in Full-Stack Web Development (Java, Spring Boot, React, JavaScript, HTML, CSS, MySQL, Python). 
+             Gaining hands-on experience with frontend, backend, and database integration through real-world projects. 
             </p>
           </div>
 
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <div className="space-y-1">
-                  <p className="text-sm text-gray-600 dark:text-gray-400">July, 202
-                    Present</p>
-                  <p className="font-medium">System Engineer</p>
-                  <p className="text-blue-600 dark:text-blue-400">Company X</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">August, 2023
+                    - Nov, 2023</p>
+                  <p className="font-medium">Data Science and Machine Learning | Intern  </p>
+                  <p className="text-blue-600 dark:text-blue-400">Pranaksh Technologies LLP, Belagavi, Karnataka </p>
                 </div>
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Led the development of cloud-native applications using AWS 
-              services, implementing serverless architectures that reduced 
-              operational costs by 40%. Established CI/CD pipelines and 
-              automated deployment processes, resulting in 60% faster 
-              release cycles.
-            </p>
-          </div>
-
-            <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <div className="space-y-1">
-                  <p className="text-sm text-gray-600 dark:text-gray-400">July, 202
-                    Present</p>
-                  <p className="font-medium">System Engineer</p>
-                  <p className="text-blue-600 dark:text-blue-400">Company X</p>
-                </div>
-              </div>
-
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
-              Led the development of cloud-native applications using AWS 
-              services, implementing serverless architectures that reduced 
-              operational costs by 40%. Established CI/CD pipelines and 
-              automated deployment processes, resulting in 60% faster 
-              release cycles.
+             Acquired a basic understanding of analysis using Pandas, NumPy, Matplotlib, and Seaborn to clean, analyze, and visualize datasets
             </p>
           </div>
         </motion.section>
