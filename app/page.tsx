@@ -132,11 +132,11 @@ export default function Home() {
         <main className="space-y-10">
           
           <section className="space-y-10">
-            <motion.div
-            initial={{opacity: 0, x: 100}}
-            animate={{opacity: 1, x: 0}}
-            transition={{duration: 0.8}}
-            className="space-y-1"
+          <motion.div
+          initial={{opacity: 0, x: 100}}
+          animate={{opacity: 1, x: 0}}
+          transition={{duration: 0.8}}
+          className="space-y-1"
           >
            <h1 className="text-4xl font-bold bg-gradient-to-r from-rose-600
           via-indigo-500 to-sky-500 bg-clip-text text-transparent
