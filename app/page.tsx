@@ -166,7 +166,7 @@ export default function Home() {
                 Enthusiastic and detail-oriented Web Developer with 1 year of
                 hands-on coding experience and a{" "}
                 <span className="text-black dark:text-white">
-                  Bachelor degree in Computer Science.
+                Bachelor degree in Computer Science.
                 </span>
                 and Collaborative team player with excellent communication
                 skills and proven ability to work with others to{" "}
@@ -396,7 +396,7 @@ export default function Home() {
                     August, 2023 - Nov, 2023
                   </p>
                   <p className="font-medium">
-                    Data Science and Machine Learning | Intern{" "}
+                    Technology Intern | Emerging Tech Exploration {" "}
                   </p>
                   <p className="text-blue-600 dark:text-blue-400">
                     Pranaksh Technologies LLP, Belagavi, Karnataka{" "}
@@ -405,9 +405,9 @@ export default function Home() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Acquired a basic understanding of analysis using Pandas, NumPy,
-                Matplotlib, and Seaborn to clean, analyze, and visualize
-                datasets
+                Explored various technology areas during internship training.  
+                Built beginner-level awareness of Artificial Intelligence (AI), Machine Learning (ML). 
+                Gained insights into how emerging technologies are applied in industry. 
               </p>
             </div>
           </motion.section>
