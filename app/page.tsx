@@ -431,7 +431,7 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <Link
-                href="https://your-project-url.com"
+                href="https://git-hub-userfinder.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -450,9 +450,9 @@ export default function Home() {
 
                     <div className="flex items-center justify-between">
                       <div>
-                        <h3 className="font-medium">Project 1</h3>
+                        <h3 className="font-medium">GitHub User Finder</h3>
                         <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
+                          HTML, CSS, JavaScript
                         </p>
                       </div>
 
@@ -469,7 +469,7 @@ export default function Home() {
               {/* SOF Projects 2 section */}
 
               <Link
-                href="https://your-project-ur2.com"
+                href="https://expense-tracker-web-app-six.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -488,9 +488,9 @@ export default function Home() {
 
                     <div className="flex items-center justify-between">
                       <div>
-                        <h3 className="font-medium">Project 2</h3>
-                        <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
+                        <h3 className="font-medium">Expense Tracker</h3>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          HTML, CSS, JavaScript
                         </p>
                       </div>
 
@@ -507,7 +507,7 @@ export default function Home() {
               {/* SOF Projects 3 section */}
 
               <Link
-                href="https://your-project-ur3.com"
+                href="https://greatrecipes.base44.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -526,9 +526,9 @@ export default function Home() {
 
                     <div className="flex items-center justify-between">
                       <div>
-                        <h3 className="font-medium">Project 3</h3>
-                        <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
+                        <h3 className="font-medium">AI Recipe Finder Web App</h3>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          REST API, Backend and web technology
                         </p>
                       </div>
 
@@ -541,120 +541,6 @@ export default function Home() {
               </Link>
 
               {/* EOF Projects 3 section */}
-
-              {/* SOF Project 4 section */}
-
-              <Link
-                href="https://cetonline.karnataka.gov.in/kea/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Card
-                  className="bg-white-50 dark:bg-zinc-900 border-gray-200
-          dark:border-zinc-800 transition-transform duration 300 hover:scale-105
-          cursor-pointer"
-                >
-                  <CardContent className="p-4">
-                    <Image
-                      src={image4}
-                      alt="project 4"
-                      className="rounded-lg mb-4"
-                    />
-
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h3 className="font-medium">Project 4</h3>
-                        <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
-                        </p>
-                      </div>
-
-                      <Button variant="ghost" size="icon">
-                        →
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-
-              {/* EOF Project 4 section */}
-
-              {/* SOF Projects 5 section */}
-
-              <Link
-                href="https://cetonline.karnataka.gov.in/kea/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Card
-                  className="bg-white-50 dark:bg-zinc-900 border-gray-200
-          dark:border-zinc-800 transition-transform duration 300 hover:scale-105
-          cursor-pointer"
-                >
-                  <CardContent className="p-4">
-                    <Image
-                      src={image5}
-                      alt="project 5"
-                      className="rounded-lg mb-4"
-                    />
-
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h3 className="font-medium">Project 5</h3>
-                        <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
-                        </p>
-                      </div>
-
-                      <Button variant="ghost" size="icon">
-                        →
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-
-              {/* EOF Projects 5 section */}
-
-              {/* SOF Projects 6 section */}
-
-              <Link
-                href="https://cetonline.karnataka.gov.in/kea/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <Card
-                  className="bg-white-50 dark:bg-zinc-900 border-gray-200
-          dark:border-zinc-800 transition-transform duration 300 hover:scale-105
-          cursor-pointer"
-                >
-                  <CardContent className="p-4">
-                    <Image
-                      src={image6}
-                      alt="project 6"
-                      className="rounded-lg mb-4"
-                    />
-
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h3 className="font-medium">Project 6</h3>
-                        <p className="text-smtext-gray-600 dark: text-gray-400">
-                          Next. js, MySQL, Drizzle
-                        </p>
-                      </div>
-
-                      <Button variant="ghost" size="icon">
-                        →
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-
-              {/* EOF Projects 6 section */}
 
               {/* SOF Footer section */}
             </div>
