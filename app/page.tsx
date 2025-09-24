@@ -6,7 +6,7 @@ import ThemeToggle from "@/components/ui/theme-toggle";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import image1 from "../public/project 1.png";
 import image2 from "../public/project 2.jpg";
@@ -166,7 +166,7 @@ export default function Home() {
                 Enthusiastic and detail-oriented Web Developer with 1 year of
                 hands-on coding experience and a{" "}
                 <span className="text-black dark:text-white">
-                  Bachelor's degree in Computer Science.
+                  Bachelor degree in Computer Science.
                 </span>
                 and Collaborative team player with excellent communication
                 skills and proven ability to work with others to{" "}
@@ -176,7 +176,7 @@ export default function Home() {
                 .
               </p>
               <p className="text-gray-600 text-sm dark:text-gray-400 max-w-2xl">
-                Beyond web development, I'm passionate about AI tools and
+                Beyond web development, I am passionate about AI tools and
                 emerging technologies, with a strong interest in Web3 design and
                 creating innovative digital experiences that blend usability,
                 scalability, and future-ready solutions.
@@ -332,7 +332,7 @@ export default function Home() {
                     Jan, 2021 - June, 2024
                   </p>
                   <p className="font-medium">
-                    Bachelor's degree in computer science.
+                    Bachelor degree in computer science.
                   </p>
                   <p className="text-blue-600 dark:text-blue-400">
                     Jain college of Engineering And Research Belagavi (VTU
@@ -659,7 +659,7 @@ export default function Home() {
               {/* SOF Footer section */}
             </div>
             <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-              &copy; 2025 Rahil '❤️.
+              &copy; 2025 Rahil ❤️.
             </p>
           </motion.section>
           {/* EOF Footer section */}
