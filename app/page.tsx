@@ -9,11 +9,8 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import image1 from "../public/project 1.png";
-import image2 from "../public/project 2.jpg";
+import image2 from "../public/project 2.png";
 import image3 from "../public/project 3.png";
-import image4 from "../public/project 4.png";
-import image5 from "../public/project 5.png";
-import image6 from "../public/project 6.jpg";
 export default function Home() {
   return (
     <div
