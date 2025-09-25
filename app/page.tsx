@@ -111,7 +111,7 @@ export default function Home() {
                 className="rounded-full bg-gradient-to-r from-rose-600
              to-indigo-600 text-white transition-transform hover:scale-105"
               >
-                <span className="relative z-10">Hire me</span>
+                <span className="relative z-10"><a href="#contact">Hire me</a></span>
               </Button>
             </motion.div>
           </motion.div>
@@ -193,9 +193,7 @@ export default function Home() {
               <Button
                 className="rounded-full bg-gradient-to-r from-rose-600
              to-indigo-600 text-white transition-transform hover:scale-105"
-              >
-                Resume
-              </Button>
+              ><a href="/resume.pdf" download>Resume</a></Button>
 
               <Link
                 href="https://github.com/rahild1"
