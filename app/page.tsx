@@ -193,7 +193,7 @@ export default function Home() {
               <Button
                 className="rounded-full bg-gradient-to-r from-rose-600
              to-indigo-600 text-white transition-transform hover:scale-105"
-              ><a href="/resume.pdf" download>Resume</a></Button>
+              ><a href="https://github.com/rahild1/rahil-resume/blob/main/resume.png" target="_blank" rel="noopener noreferrer">Resume</a></Button>
 
               <Link
                 href="https://github.com/rahild1"
