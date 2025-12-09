@@ -6,8 +6,9 @@ import ThemeToggle from "@/components/ui/theme-toggle";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
+import image0 from "../public/project 0.png";
 import image1 from "../public/project 1.png";
 import image2 from "../public/project 2.png";
 import image3 from "../public/project 3.png";
@@ -111,7 +112,9 @@ export default function Home() {
                 className="rounded-full bg-gradient-to-r from-rose-600
              to-indigo-600 text-white transition-transform hover:scale-105"
               >
-                <span className="relative z-10"><a href="#contact">Hire me</a></span>
+                <span className="relative z-10">
+                  <a href="#contact">Hire me</a>
+                </span>
               </Button>
             </motion.div>
           </motion.div>
@@ -163,7 +166,7 @@ export default function Home() {
                 Enthusiastic and detail-oriented Web Developer with 1 year of
                 hands-on coding experience and a{" "}
                 <span className="text-black dark:text-white">
-                Bachelor degree in Computer Science.
+                  Bachelor degree in Computer Science.
                 </span>
                 and Collaborative team player with excellent communication
                 skills and proven ability to work with others to{" "}
@@ -193,7 +196,15 @@ export default function Home() {
               <Button
                 className="rounded-full bg-gradient-to-r from-rose-600
              to-indigo-600 text-white transition-transform hover:scale-105"
-              ><a href="https://github.com/rahild1/rahil-resume/blob/main/resume.png" target="_blank" rel="noopener noreferrer">Resume</a></Button>
+              >
+                <a
+                  href="https://github.com/rahild1/rahil-resume/blob/main/resume.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </Button>
 
               <Link
                 href="https://github.com/rahild1"
@@ -391,7 +402,7 @@ export default function Home() {
                     August, 2023 - Nov, 2023
                   </p>
                   <p className="font-medium">
-                    Technology Intern | Emerging Tech Exploration {" "}
+                    Technology Intern | Emerging Tech Exploration{" "}
                   </p>
                   <p className="text-blue-600 dark:text-blue-400">
                     Pranaksh Technologies LLP, Belagavi, Karnataka{" "}
@@ -400,9 +411,10 @@ export default function Home() {
               </div>
 
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                Explored various technology areas during internship training.  
-                Built beginner-level awareness of Artificial Intelligence (AI), Machine Learning (ML). 
-                Gained insights into how emerging technologies are applied in industry. 
+                Explored various technology areas during internship training.
+                Built beginner-level awareness of Artificial Intelligence (AI),
+                Machine Learning (ML). Gained insights into how emerging
+                technologies are applied in industry.
               </p>
             </div>
           </motion.section>
@@ -425,6 +437,43 @@ export default function Home() {
               Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              <Link
+                href="https://ai-image-generator-one-inky.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Card
+                  className="bg-white-50 dark:bg-zinc-900 border-gray-200
+          dark:border-zinc-800 transition-transform duration 300 hover:scale-105
+          cursor-pointer"
+                >
+                  <CardContent className="p-1">
+                    <Image
+                      src={image0}
+                      alt="project 0"
+                      className="rounded-lg mb-4"
+                    />
+
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="font-medium">AI Image Generator</h3>
+                        <p className="text-smtext-gray-600 dark: text-gray-400">
+                          HTML, CSS, JavaScript
+                        </p>
+                      </div>
+
+                      <Button variant="ghost" size="icon">
+                        →
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+
+              {/* EOF Projects 1 section */}
+
+              {/* SOF Projects 2 section */}
               <Link
                 href="https://git-hub-userfinder.vercel.app/"
                 target="_blank"
@@ -459,9 +508,9 @@ export default function Home() {
                 </Card>
               </Link>
 
-              {/* EOF Projects 1 section */}
+              {/* EOF Projects 2 section */}
 
-              {/* SOF Projects 2 section */}
+              {/* SOF Projects 3 section */}
 
               <Link
                 href="https://expense-tracker-web-app-six.vercel.app/"
@@ -497,9 +546,9 @@ export default function Home() {
                 </Card>
               </Link>
 
-              {/* EOF Projects 2 section */}
+              {/* EOF Projects 3 section */}
 
-              {/* SOF Projects 3 section */}
+              {/* SOF Projects 4 section */}
 
               <Link
                 href="https://greatrecipes.base44.app/"
@@ -521,7 +570,9 @@ export default function Home() {
 
                     <div className="flex items-center justify-between">
                       <div>
-                        <h3 className="font-medium">AI Recipe Finder Web App</h3>
+                        <h3 className="font-medium">
+                          AI Recipe Finder Web App
+                        </h3>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
                           REST API, Backend and web technology
                         </p>
@@ -535,7 +586,7 @@ export default function Home() {
                 </Card>
               </Link>
 
-              {/* EOF Projects 3 section */}
+              {/* EOF Projects 4 section */}
 
               {/* SOF Footer section */}
             </div>
